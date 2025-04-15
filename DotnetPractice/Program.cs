@@ -1,27 +1,37 @@
-﻿#region Min Number
+﻿using DotnetPractice.Practices;
 
-Console.Write("Enter count of number's: ");
+// Min Number
+//Practice001.Run();
 
-var count = Convert.ToInt32(Console.ReadLine());
+// Max Number
+//Practice002.Run();
 
-int minNumber = 0;
+// Average
+//Practice003.Run();
 
-for (int i = 0; i < count; i++)
-{
-	var number = Convert.ToInt32(Console.ReadLine());
+// Last Number = 5
+//Practice004.Run();
 
-	if (i == 0)
-	{
-		minNumber = number;
-		continue;
-	}
+// Factorial
+//Practice005.Run();
 
-	if (number < minNumber)
-	{
-		minNumber = number;
-	}
-}
+// Lenght of Number
+//Practice006.Run();
 
-Console.WriteLine(minNumber);
+// Reverse Number
+//Practice007.Run();
 
-#endregion
+// Prime Number
+//Practice008.Run();
+
+// 1000 Prime Number 
+//Practice009.Run();
+
+// اعداد چهار رقمی قرینه
+//Practice010.Run();
+
+// 1+2-3+4 ... N
+//Practice011.Run();
+
+// Empty
+Practice012.Run();
