@@ -33,5 +33,26 @@
 // 1+2-3+4 ... N
 //Practice011.Run();
 
+// الگوی کسر ها
+//Practice012.Run();
+
+// مقسوم علیه ها
+//Practice013.Run();
+
+// What day of the year?
+//Practice014.Run();
+
+// ب.م.م دو عدد
+//Practice015.Run();
+
+// Sum of Digit's
+//Practice016.Run();
+
+// Pay Wage of Employee
+//Practice017.Run();
+
+// مضارب 2 و 5
+//Practice018.Run();
+
 // Empty
-Practice012.Run();
+Practice019.Run();
