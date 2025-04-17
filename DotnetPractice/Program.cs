@@ -63,13 +63,13 @@ Practice001.Run();
 // یکان و صدگان زوج، دهگان و هزارگان قرد
 //Practice021.Run();
 
-// 
+// Coin's
 //Practice022.Run();
 
 // ضرب با جمع متوالی
 //Practice023.Run();
 
-// 
+// Khayam Triangle
 //Practice024.Run();
 
 // Fibonacci Prime Number's
