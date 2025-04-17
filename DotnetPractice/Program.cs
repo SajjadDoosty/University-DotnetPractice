@@ -1,7 +1,7 @@
 ﻿using DotnetPractice.Practices;
 
 // Min Number
-//Practice001.Run();
+Practice001.Run();
 
 // Max Number
 //Practice002.Run();
@@ -54,5 +54,29 @@
 // مضارب 2 و 5
 //Practice018.Run();
 
-// Empty
-Practice019.Run();
+// Sum of Digit's Devide by Number
+//Practice019.Run();
+
+// مضارب 3 بین دو عدد
+//Practice020.Run();
+
+// یکان و صدگان زوج، دهگان و هزارگان قرد
+//Practice021.Run();
+
+// 
+//Practice022.Run();
+
+// ضرب با جمع متوالی
+//Practice023.Run();
+
+// 
+//Practice024.Run();
+
+// Fibonacci Prime Number's
+//Practice025.Run();
+
+// Strong Number
+//Practice026.Run();
+
+// Reverse String
+//Practice027.Run();
