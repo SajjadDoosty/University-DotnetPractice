@@ -104,10 +104,13 @@ Part02.Practice001.Run();
 // Duplicated Value's in Array
 //Part02.Practice005.Run();
 
-// Duplicated Value's in 2 Array
+// Duplicated Value's in 2 Array's
 //Part02.Practice006.Run();
 
 // Remove Duplicated Value's in Array
 //Part02.Practice007.Run();
+
+// Equals 2 Array's
+//Part02.Practice008.Run();
 
 #endregion

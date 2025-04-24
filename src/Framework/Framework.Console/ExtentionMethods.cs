@@ -19,7 +19,7 @@ public static class ExtentionMethods
 
 		for (int i = 0; i < array.Length; i++)
 		{
-			if (i == array.GetLength(0) - 1)
+			if (i == array.Length - 1)
 			{
 				Console.WriteLine($"{array[i]}");
 			}
@@ -44,7 +44,7 @@ public static class ExtentionMethods
 				continue;
 			}
 
-			if (i == array.GetLength(0) - 1)
+			if (i == array.Length - 1)
 			{
 				Console.WriteLine($"{array[i]}");
 			}
@@ -53,5 +53,36 @@ public static class ExtentionMethods
 				Console.Write($"{array[i]}, ");
 			}
 		}
+	}
+
+	public static bool IsEquals(this int[] firstArray, int[] secondArray)
+	{
+		if (firstArray.Length != secondArray.Length)
+		{
+			return false;
+		}
+
+		bool isEquals = true;
+
+		for (int i = 0; i < firstArray.Length; i++)
+		{
+			bool isIndexEquals = false;
+
+			for (int j = 0; j < secondArray.Length; j++)
+			{
+				if (firstArray[i] == secondArray[j])
+				{
+					isIndexEquals = true;
+				}
+			}
+
+			if (isIndexEquals == false)
+			{
+				isEquals = false;
+				break;
+			}
+		}
+
+		return isEquals;
 	}
 }
